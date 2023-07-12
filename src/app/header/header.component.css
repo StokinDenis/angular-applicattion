@@ -1,0 +1,14 @@
+header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #816f54;
+  color: #FFF;
+  height: 60px;
+  font-size: 20px;
+  font-weight: 700;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
