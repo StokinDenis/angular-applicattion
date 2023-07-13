@@ -18,4 +18,5 @@ export class ContactsComponent {
      {name: 'Nikolay Klimovich', age: 20, occupation: 'Backend developer'},
      {name: 'Denis', age: 20, occupation: 'Frontend developer'},
    ]
+
 }

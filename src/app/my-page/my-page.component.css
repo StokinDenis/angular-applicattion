@@ -1,7 +1,7 @@
-.wrapper{
-  display: flex;
-  flex-direction: column;
-  min-height: 100%;
+.ava_user{
+  width: 200px;
+  height: 200px;
+  margin-top: 30px;
+  margin-left: 30px;
+  border: 3px solid #ffffff;
 }
-
-
