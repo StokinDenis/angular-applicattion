@@ -1,0 +1,20 @@
+.contact{
+  display: flex;
+  border-bottom: 1px solid black;
+}
+.ava_contact{
+  cursor: pointer;
+  padding-top: 10px;
+  padding-left: 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+.contact_info{
+  cursor: pointer;
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 800;
+}
