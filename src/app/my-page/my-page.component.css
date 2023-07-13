@@ -1,7 +1,36 @@
 .ava_user{
   width: 200px;
   height: 200px;
+  border: 3px solid #ffffff;
+}
+.input_name_redactor{
+  margin-left: 10px;
+  margin-top: 20px;
+  height: 20px;
+  opacity: 0;
+}
+.icon_edit_name{
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  padding-top: 25px;
+  padding-left: 20px;
+}
+.name_block{
+  display: flex;
+}
+.user_page{
   margin-top: 30px;
   margin-left: 30px;
-  border: 3px solid #ffffff;
+  display: flex;
+}
+.user_info_block{
+  margin-left: 50px;
+  font-size: 50px;
+  font-weight: 800;
+}
+.user_info{
+  font-size: 20px;
+  width: 800px;
+  text-align: justify;
 }
