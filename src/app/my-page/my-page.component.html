@@ -4,10 +4,10 @@
   </div>
   <div class="user_info_block">
     <div class="name_block">
-    <div class="user_name">Denis Stokin</div>
+    <div class="user_name">{{User.name}}</div>
     <img class="icon_edit_name" src="../../assets/pencil-solid.svg" alt="" (click)="appearanceField()">
-      <input class="input_name_redactor" type="text">
-      <button>изменить</button>
+      <input [(ngModel)]="User.name" class="input_name_redactor" type="text" >
+      <button (click)="fieldHiding()" class="button_change">изменить</button>
     </div>
     <div class="user_info">
       начинающий фронтенд-разработчик с большим энтузиазмом и стремлением к обучению.
