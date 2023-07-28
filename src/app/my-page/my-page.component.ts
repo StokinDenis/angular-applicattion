@@ -6,14 +6,16 @@ import {HeaderComponent} from "../header/header.component";
 import {Renderer2} from "@angular/core";
 import {User} from "../user";
 import {FormsModule} from "@angular/forms";
+import {SliderComponent} from "../slider/slider.component";
 
 @Component({
   selector: 'app-my-page',
   standalone: true,
-  imports: [CommonModule, ContentComponent, FooterComponent, HeaderComponent, FormsModule,],
+  imports: [CommonModule, ContentComponent, FooterComponent, HeaderComponent, FormsModule, SliderComponent],
   templateUrl: './my-page.component.html',
   styleUrls: ['./my-page.component.css']
 })
+
 export class MyPageComponent {
 
 
@@ -30,7 +32,11 @@ export class MyPageComponent {
     let field = this.elementRef.nativeElement.querySelector('.input_name_redactor')
     this.renderer.setStyle(field, 'opacity' , '0')
   }
+
   constructor(private elementRef: ElementRef, private renderer: Renderer2) { }
-  User:User={name:"Denis Stokin"}
+  User:User={
+    name:"Denis Stokin",
+    age: 20,
+  }
 
 }
