@@ -5,9 +5,9 @@
   <div class="user_info_block">
     <div class="name_block">
     <div class="user_name">{{User.name}}</div>
-    <img class="icon_edit_name" src="../../assets/pencil-solid.svg" alt="" (click)="appearanceField()">
-      <input [(ngModel)]="User.name" class="input_name_redactor" type="text" >
-      <button (click)="fieldHiding()" class="button_change">изменить</button>
+    <img class="icon_edit_name" src="../../assets/pencil-solid.svg" alt="" (click)="visibleFieldFunction()" >
+      <input  [ngClass]="{'input_name_redactor':visibleField}" class="visible" type="text" >
+      <button [ngClass]="{'button_change':visibleField}" (click)="notVisibleFieldFunction()">изменить</button>
     </div>
     <div class="user_info">
       начинающий фронтенд-разработчик с большим энтузиазмом и стремлением к обучению.
@@ -16,6 +16,7 @@
       Он обладает отличными коммуникативными навыками и способностью работать в команде. Денис всегда стремится к тому,
       чтобы его код был чистым и эффективным, и он всегда готов принять вызов и решить сложную задачу.
     </div>
+
   </div>
 </div>
 <app-slider></app-slider>

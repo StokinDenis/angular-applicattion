@@ -7,13 +7,11 @@ import {NewsComponent} from "./news/news.component";
 import {MyPageComponent} from "./my-page/my-page.component";
 import {HeaderComponent} from "./header/header.component";
 import {FooterComponent} from "./footer/footer.component";
-
-
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
     AppComponent,
-
   ],
   imports: [
     BrowserModule,
@@ -23,6 +21,7 @@ import {FooterComponent} from "./footer/footer.component";
     FooterComponent,
     HeaderComponent,
     FormsModule,
+    CommonModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

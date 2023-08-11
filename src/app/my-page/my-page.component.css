@@ -8,10 +8,13 @@
   width: 100%;
   word-wrap: break-word;
 }
+.visible{
+
+}
 .input_name_redactor{
   margin-left: 10px;
   margin-top: 20px;
-  height: 20px;
+  height: 10px;
   opacity: 0;
 }
 .button_change{
